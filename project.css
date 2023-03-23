@@ -1,0 +1,39 @@
+body{
+    background-image: url(wheat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+ /*a{ 
+    color: beige;
+    position: relative;
+    left: 990px;
+    size: 30px;
+    margin: 10px;
+    bottom: 326px;
+    color: aliceblue;
+ } */
+p{
+    font-weight: bolder;
+    font-size:large ;
+    
+}
+p::first-line{
+    text-align: center;
+}
+.formlable input{
+    padding: 10px;
+}
+
+.pghead{
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+.sn{
+    text-align: right;
+}

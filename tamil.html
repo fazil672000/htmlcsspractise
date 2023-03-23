@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM HTML</title>
+    <style>
+        .para
+        {
+            color:teal;
+            background-color:white;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+<h2>Changing CSS style with JS</h2>
+    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos mollitia natus suscipit assumenda! Nostrum aspernatur mollitia unde nisi repellendus sed eveniet impedit voluptatibus ut ipsum beatae, cumque illo distinctio corporis molestias, magni, perferendis sapiente. Tenetur, obcaecati facere totam ipsam deleniti accusantium et soluta inventore adipisci nemo rerum, quaerat molestiae earum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos mollitia natus suscipit assumenda! Nostrum aspernatur mollitia unde nisi repellendus sed eveniet impedit voluptatibus ut ipsum beatae, cumque illo distinctio corporis molestias, magni, perferendis sapiente. Tenetur, obcaecati facere totam ipsam deleniti accusantium et soluta inventore adipisci nemo rerum, quaerat molestiae earum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos mollitia natus suscipit assumenda! Nostrum aspernatur mollitia unde nisi repellendus sed eveniet impedit voluptatibus ut ipsum beatae, cumque illo distinctio corporis molestias, magni, perferendis sapiente. Tenetur, obcaecati facere totam ipsam deleniti accusantium et soluta inventore adipisci nemo rerum, quaerat molestiae earum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos mollitia natus suscipit assumenda! Nostrum aspernatur mollitia unde nisi repellendus sed eveniet impedit voluptatibus ut ipsum beatae, cumque illo distinctio corporis molestias, magni, perferendis sapiente. Tenetur, obcaecati facere totam ipsam deleniti accusantium et soluta inventore adipisci nemo rerum, quaerat molestiae earum!
+    </p>
+    <button type="submit"onclick="func()">Click here to change the Attributes</button>
+    <script>
+        function func()
+        {
+            document.getElementsByClassName("para")[0].style.color="white"
+            document.getElementsByClassName("para")[0].style.background="teal"
+            document.getElementsByClassName("para")[0].style.fontSize="20px";
+        }
+    </script>
+</body>
+</html>

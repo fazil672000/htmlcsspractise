@@ -1,0 +1,31 @@
+<style>
+h1{
+    background-image: url(nature.jpg);
+    
+}
+span{
+    color:blue;
+    size: 67px;
+    align-content: center;
+}
+#srch{
+     margin-left: 1600px;
+}
+#srch::placeholder{
+    color: brown;
+
+}
+.search{
+    max-width: 600px;
+    display: inline-flex;
+ }  
+ .btn{
+    cursor: pointer;
+ } 
+ .one{
+     padding: 20px;
+ }
+ p{
+    background:linear-gradient(blue green yellow) ;
+ }
+</style>
